@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.dashboard.DashboardFragment">
+
+    <TableLayout
+        android:id="@+id/tableLayout2"
+        android:layout_width="282dp"
+        android:layout_height="252dp"
+        android:background="#673AB7"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.3">
+
+        <TableRow android:layout_height="119dp">
+
+            <TextView
+                android:id="@+id/row1name"
+                android:layout_width="142dp"
+                android:gravity="center"
+                android:padding="3dip" />
+
+            <TextView
+                android:id="@+id/row1value"
+                android:layout_width="142dp"
+                android:gravity="center"
+                android:padding="3dip"
+                android:textColorLink="#FFFFFF" />
+        </TableRow>
+
+        <TableRow android:layout_height="119dp">
+
+            <TextView
+                android:id="@+id/row2name"
+                android:layout_width="142dp"
+                android:gravity="center"
+                android:padding="3dip" />
+
+            <TextView
+                android:id="@+id/row2value"
+                android:layout_width="142dp"
+                android:gravity="center"
+                android:padding="3dip" />
+        </TableRow>
+
+        <TableRow android:layout_height="119dp">
+
+            <TextView
+                android:id="@+id/row3name"
+                android:layout_width="142dp"
+                android:gravity="center"
+                android:padding="3dip" />
+
+            <TextView
+                android:id="@+id/row3value"
+                android:layout_width="142dp"
+                android:gravity="center"
+                android:padding="3dip" />
+        </TableRow>
+
+        <TableRow android:layout_height="119dp">
+
+            <TextView
+                android:id="@+id/row4name"
+                android:layout_width="142dp"
+                android:gravity="center"
+                android:padding="3dip" />
+
+            <TextView
+                android:id="@+id/row4value"
+                android:layout_width="142dp"
+                android:gravity="center"
+                android:padding="3dip" />
+        </TableRow>
+
+        <TableRow android:layout_height="119dp">
+
+            <TextView
+                android:id="@+id/row5name"
+                android:layout_width="142dp"
+                android:gravity="center"
+                android:padding="3dip" />
+
+            <TextView
+                android:id="@+id/row5value"
+                android:layout_width="142dp"
+                android:gravity="center"
+                android:padding="3dip" />
+        </TableRow>
+
+        <TableRow android:layout_height="119dp">
+
+            <TextView
+                android:id="@+id/row6name"
+                android:layout_width="142dp"
+                android:gravity="center"
+                android:padding="3dip" />
+
+            <TextView
+                android:id="@+id/row6value"
+                android:layout_width="142dp"
+                android:gravity="center"
+                android:padding="3dip" />
+        </TableRow>
+
+        <TableRow android:layout_height="119dp">
+
+            <TextView
+                android:id="@+id/row7name"
+                android:layout_width="142dp"
+                android:gravity="center"
+                android:padding="3dip" />
+
+            <TextView
+                android:id="@+id/row7value"
+                android:layout_width="142dp"
+                android:gravity="center"
+                android:padding="3dip" />
+        </TableRow>
+
+        <TableRow android:layout_height="119dp">
+
+            <TextView
+                android:id="@+id/row8name"
+                android:layout_width="142dp"
+                android:gravity="center"
+                android:padding="3dip" />
+
+            <TextView
+                android:id="@+id/row8value"
+                android:layout_width="142dp"
+                android:gravity="center"
+                android:padding="3dip" />
+        </TableRow>
+
+        <TableRow android:layout_height="119dp">
+
+            <TextView
+                android:id="@+id/row9name"
+                android:layout_width="142dp"
+                android:gravity="center"
+                android:padding="3dip" />
+
+            <TextView
+                android:id="@+id/row9value"
+                android:layout_width="142dp"
+                android:gravity="center"
+                android:padding="3dip" />
+        </TableRow>
+
+        <TableRow android:layout_height="119dp">
+
+            <TextView
+                android:id="@+id/row10name"
+                android:layout_width="142dp"
+                android:gravity="center"
+                android:padding="3dip" />
+
+            <TextView
+                android:id="@+id/row10value"
+                android:layout_width="142dp"
+                android:gravity="center"
+                android:padding="3dip" />
+        </TableRow>
+
+    </TableLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
